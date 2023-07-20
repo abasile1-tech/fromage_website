@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 2rem;
+	width: 100%;
+}
+
+/* Hero */
+
+.hero {
+	background-color: rgba(212, 65, 2, 0.1);
+}
+
+.hero__title {
+	font-size: 56px;
+}
+
+.hero__title--span {
+	color: rgba(212, 65, 2);
+}
+
+.hero__paragraph {
+	font-size: 32px;
+	color: rgb(60, 59, 58);
+}
+
+/* Header */
+
+.header__logo {
+	color: rgba(212, 65, 2);
+	font-weight: 900;
+}
+
+.header {
+	height: 64px;
+	display: flex;
+	align-items: center;
+}
