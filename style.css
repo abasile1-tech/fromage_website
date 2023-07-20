@@ -73,3 +73,13 @@ html {
 	display: flex;
 	align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+	.hero > .container {
+		flex-direction: column;
+	}
+
+	.hero__title {
+		font-size: 32px;
+	}
+}
